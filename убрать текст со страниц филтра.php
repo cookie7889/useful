@@ -1,4 +1,4 @@
-<?#745?>
+<?# /bitrix/templates/aspro_max/components/bitrix/catalog/main/page_blocks  745 ?>
 <? ob_start(); ?>
 <? if ($arResult['FOLDER'] . $arResult['VARIABLES']['SECTION_CODE_PATH'] . '/' == $APPLICATION->GetCurPage()) : ?>
 	<? if ($posSectionDescr == "BOTH") : ?>
