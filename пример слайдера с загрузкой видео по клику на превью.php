@@ -1,5 +1,5 @@
 <style>
-    .reviews-block .play-video-btn {
+    .play-video-btn {
         width: 438px;
         height: 286px;
         border-radius: 3px;
@@ -10,20 +10,20 @@
         cursor: pointer;
     }
 
-    .reviews-block .play-video-btn.remove {
+    .play-video-btn.remove {
         position: absolute;
         top: 0;
         opacity: 0;
         transition: opacity 1.2s ease;
     }
 
-    .reviews-block .play-video-btn .prev-img {
+    .play-video-btn .prev-img {
         width: 438px;
         height: 286px;
         border-radius: 3px;
     }
 
-    .reviews-block .play-video-btn .yt-btn {
+    .play-video-btn .yt-btn {
         position: absolute;
         height: 48px;
         width: 68px;
@@ -31,14 +31,14 @@
         display: flex;
     }
 
-    .reviews-block .play-video-btn .yt-btn .background {
+    .play-video-btn .yt-btn .background {
         -webkit-transition: fill .1s cubic-bezier(0.4, 0, 1, 1), fill-opacity .1s cubic-bezier(0.4, 0, 1, 1);
         transition: fill .1s cubic-bezier(0.4, 0, 1, 1), fill-opacity .1s cubic-bezier(0.4, 0, 1, 1);
         fill: #212121;
         fill-opacity: .8;
     }
 
-    .reviews-block .play-video-btn:hover .yt-btn .background {
+    .play-video-btn:hover .yt-btn .background {
         -webkit-transition: fill .1s cubic-bezier(0, 0, 0.2, 1), fill-opacity .1s cubic-bezier(0, 0, 0.2, 1);
         transition: fill .1s cubic-bezier(0, 0, 0.2, 1), fill-opacity .1s cubic-bezier(0, 0, 0.2, 1);
         fill: #f00;
